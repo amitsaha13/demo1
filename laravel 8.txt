@@ -1,0 +1,34 @@
+
+
+Via Laravel Installer: composer global require laravel/installer
+Via Composer Create-Project: composer create-project --prefer-dist laravel/laravel project_name
+Start project: php artisan serve
+migrate database: php artisan migrate
+delete all table and migrate: php artisan migrate:refresh
+Check laravel Framework Version: php artisan --version
+create table: php artisan make:migration create_tableName_table --create=tableName
+create controller and model: php artisan make:controller controllerName --resource --model=modelName
+db table with migration: php artisan make:migration create_orders_table
+
+no delete, no chage just do it: php artisan migrate:fresh
+
+
+Github:
+===============================================================================================================================
+Github SSH key for project: git@github.com:jams506/PinkishBeauty.git
+
+clone: git clone git@github.com:jams506/PinkishBeauty.git
+
+pull:  git pull git@github.com:jams506/PinkishBeauty.git
+
+push:
+git add .
+git commit -m "by Amit"
+git push origin master
+
+ssh keygen: ssh-keygen -t rsa -b 4096 -C "amitsaha.ndc@gmail.com"
+
+
+
+Your app password for Windows Computer
+btyvzgbmnuykolpc
